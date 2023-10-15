@@ -143,7 +143,7 @@ const App = () => {
     <div>
       {" "}
       <h1 style={{ textAlign: "center" }}>
-        {showData ? " Available data" : "Add Data"}
+        {showData ? " Fetcheted data" : "Add Data"}
       </h1>
       <button onClick={toggleData} style={buttonStyles}>
         Toggle Data
