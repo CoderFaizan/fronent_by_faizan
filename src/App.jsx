@@ -36,7 +36,7 @@ const App = () => {
 
     // Make a POST request to send the data
     axios
-      .post("https://https://faizan-project.cyclic.app//user/add", formData)
+      .post("https://faizan-project.cyclic.app/user/user/add", formData)
       .then((res) => {
         // Handle the response if needed
         console.log("Data sent successfully:", res.data);
@@ -66,7 +66,7 @@ const App = () => {
 },[])
   const availableData = () => {
   axios
-    .get(`https://https://faizan-project.cyclic.app//user/showAll`)
+    .get(https://faizan-project.cyclic.app/user/showAll`)
     .then((res) => {
       setData(res.data);
       console.log(data);
